@@ -1,0 +1,24 @@
+:root {
+    --spacing-large: 30px;
+    --spacing-normal: 16px;
+    --spacing-small: 10px;
+
+    --font-size-large: 18px;
+    --font-size-normal: 14px;
+    --font-size-small: 12px;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans+JP&subset=japanese");
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  font-family: "Noto Sans JP", sans-serif;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+body {
+  overflow-x: scroll;
+}

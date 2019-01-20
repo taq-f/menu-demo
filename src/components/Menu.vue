@@ -60,26 +60,26 @@ export default {
     width: 100%;
 
     .title {
-      font-size: 18px;
+      font-size: var(--font-size-large);
       margin: 10px;
     }
 
     .description {
-      font-size: 12px;
-      margin: 10px;
+      font-size: var(--font-size-small);
+      margin: var(--spacing-small);
     }
 
     .star {
       text-align: right;
-      margin: 10px;
+      margin: var(--spacing-small);
     }
   }
 
   &:hover {
     .image {
       opacity: 1;
-      outline: 4px solid #40c4ff;
-      outline-offset: 2px;
+      outline: 3px solid #40c4ff;
+      outline-offset: 3px;
     }
   }
 }
