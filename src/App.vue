@@ -37,7 +37,7 @@
             class="md-icon-button md-dense"
             @click="showPopularMenus"
           >
-            <md-icon>favorite</md-icon>
+            <md-icon>trending_up</md-icon>
           </md-button>
         </div>
       </div>
